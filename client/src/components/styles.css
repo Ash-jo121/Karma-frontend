@@ -1,0 +1,31 @@
+.back_ground{
+    background-color:#cfd3da;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-bottom:10%;
+    padding-left:10%;
+}
+.text_color{
+    color:black;
+    font-size:80px;
+}
+
+.center{
+    margin:auto;
+    padding-top:15%;
+    padding-left:20%;
+}
+.login_background{
+    background-color:#cfd3da;
+    height:2000px;
+    width:100%;
+    
+}
+.profile_text{
+    font-size: 20%;
+}

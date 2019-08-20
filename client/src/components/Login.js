@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { login,attendance } from './UserFunctions'
+import './styles.css'
 
 class Login extends Component {
   constructor() {
@@ -42,7 +43,8 @@ class Login extends Component {
 
   render() {
     return (
-      <div className="container">
+      <html className="login_background">
+      <div className="container center">
         <div className="row">
           <div className="col-md-6 mt-5 mx-auto">
             <form noValidate onSubmit={this.onSubmit}>
@@ -79,6 +81,7 @@ class Login extends Component {
           </div>
         </div>
       </div>
+      </html>
     )
   }
 }

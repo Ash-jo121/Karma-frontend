@@ -36,6 +36,7 @@ class Register extends Component {
 
   render() {
     return (
+      <body className="login_background">
       <div className="container">
         <div className="row">
           <div className="col-md-6 mt-5 mx-auto">
@@ -95,6 +96,7 @@ class Register extends Component {
           </div>
         </div>
       </div>
+      </body>
     )
   }
 }

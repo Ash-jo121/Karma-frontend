@@ -2,17 +2,22 @@ import React, { Component } from 'react'
 
 import './Navigator.css';
 import '../App.css'
+import './styles.css'
 
 class Home extends Component {
   render() {
     return (
-      <div className="container" >
+      <body className="back_ground">
+      {/*
         <div className="jumbotron mt-5">
           <div className="col-sm-8 mx-auto">
-            <h1 className="text-center">WELCOME</h1>
+      */}
+            <h1 className="text-center text_color">WELCOME</h1>
+            {/*
           </div>
         </div>
-      </div>
+            */}
+      </body>
     )
   }
 }
