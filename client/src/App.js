@@ -23,7 +23,9 @@ function App() {
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/profile" component={Profile} />
-            <Route exact path="/attendance" component={Attendance} />
+            <div className="App_body">
+            <Route exact path="/attendance" component={Attendance} className="App_body" />
+            </div>
             <Route exact path="/admission" component={Admission} />
           </div>
         </div>

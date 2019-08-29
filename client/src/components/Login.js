@@ -43,7 +43,7 @@ class Login extends Component {
 
   render() {
     return (
-      <html className="login_background">
+      <div className="login_body">
       <div className="container center">
         <div className="row">
           <div className="col-md-6 mt-5 mx-auto">
@@ -81,7 +81,7 @@ class Login extends Component {
           </div>
         </div>
       </div>
-      </html>
+      </div>
     )
   }
 }

@@ -26,37 +26,39 @@ class Profile extends Component {
 
   render() {
     return (
-      <html className="login_background">
-      <div className="container">
+      <body>
+      <div className="profile_body">
+        <div className="container">
         {/*
         <div className="jumbotron mt-5">
           <div className="col-sm-8 mx-auto">
         */}
           <br/>
-            <h1 className="text-center">PROFILE</h1>
-            <br/>
-          </div>
+          <h1 className="text-center">PROFILE</h1>
+          <br/>
+        </div>
           <table className="table col-md-6 mx-auto">
             <tbody>
               <tr>
                 <td className="profile_text">First Name</td>
                 <td className="profile_text">{this.state.first_name}</td>
               </tr>
-              <tr>
+               <tr>
                 <td className="profile_text">Last Name</td>
                 <td className="profile_text">{this.state.last_name}</td>
               </tr>
               <tr>
-                <td>Email</td>
-                <td>{this.state.email}</td>
+                <td className="profile_text">Email</td>
+                <td className="profile_text">{this.state.email}</td>
               </tr>
             </tbody>
-          </table>
+         </table>
         {/*
         </div>
       </div>
         */}
-      </html>
+        </div>
+      </body>
     )
   }
 }

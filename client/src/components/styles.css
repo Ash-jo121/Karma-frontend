@@ -27,5 +27,18 @@
     
 }
 .profile_text{
-    font-size: 20%;
+    font-size: 120%;
+}
+.tbody_align{
+    margin:auto;
+
+}
+
+.login_body_{
+    background-color: #282c34;
+}
+
+.profile_body{
+    background-color: #cfd3da;
+    height: 2000px;
 }

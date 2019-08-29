@@ -8,7 +8,7 @@ class Home extends Component {
   render() {
     return (
       <body className="back_ground">
-      {/*
+      {/*s
         <div className="jumbotron mt-5">
           <div className="col-sm-8 mx-auto">
       */}

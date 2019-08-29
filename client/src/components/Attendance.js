@@ -8,6 +8,8 @@ import '../App.css';
 import Dropdown from './Dropdown3'
 import Navigator from './Navigator'
 import { BrowserRouter} from 'react-router-dom';
+import './styles.css'
+
 
 class Attendance extends React.Component {
   constructor() {
@@ -81,15 +83,21 @@ attendance(user).then(res => {
     
       render() {
         return (
-            <div>
+          <div className="profile_body">
+            <div className="container profile_body">
               {this.state.class == 'X'?(
                     <div>
+                    <br/>
                     <Dropdown/>
+                    <br/>
                     <h3>OR</h3>
+                    <br/>
                     <h3>Update Attendance</h3>
+                    <br/>
             <form noValidate onSubmit={this.onSubmit}>
                     <div className="form-group">
                 <label htmlFor="id">ID</label>
+                <br/>
                 <input
                   type="id"
                   className="form-control"
@@ -99,6 +107,7 @@ attendance(user).then(res => {
                   onChange={this.onChange}
                 />
               </div>
+              <br/>
               <div className="form-group">
                 <label htmlFor="name">New Attendance</label>
                 <input
@@ -110,6 +119,7 @@ attendance(user).then(res => {
                   onChange={this.onChange}
                 />
               </div>
+              <br/>
               <button
                 type="submit"
                 className="btn btn-lg btn-primary btn-block"
@@ -144,7 +154,7 @@ attendance(user).then(res => {
         
 
               
-              
+              </div>
             </div>
         );
       }
